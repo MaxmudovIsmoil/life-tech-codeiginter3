@@ -1,0 +1,34 @@
+.guruh{
+  background: #ffffff;
+  border: 1px solid #cfcfd2;
+  border-radius: 0px;
+  box-shadow: 0.5px 1.5px 5px #d1d1d3;
+  margin: 10px;
+  padding: 10px;
+}
+.guruh .col-md-1 i{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 7px;
+  font-size: 24px;
+  color: #007bff;
+}
+.guruh h5{
+  font-size: 16px;
+  padding: 10px;
+  margin: 0px;
+}
+.guruh:hover{
+  box-shadow: 1px 1px 15px #d1d1d3;
+  color: darkred;
+}
+.faol_rezerv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.faol_rezerv .faol_rezerv_one{
+  margin-right: 3px;
+  margin-left: -10px;
+}
+

@@ -1,0 +1,246 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.guruh_badge{
+    padding-bottom: .4em;
+    font-size: 13px;
+    cursor: pointer;
+    border: 1px solid #28a745;
+}
+.guruh_badge:hover{
+    background: white;
+    color: #28a745;
+    border: 1px solid #28a745;
+}
+
+table.table-bordered.dataTable th, table.table-bordered.dataTable td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.modal_davomat .modal-header{
+    padding-bottom: 10px;
+}
+.modal_davomat .modal-header p{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    margin-left: 165px;
+}
+
+.modal_davomat .modal-header p span{
+    padding-bottom: 0px;
+    color: #808080d1;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.modal_davomat .davomat_modal_body{
+    padding: 0px;
+}
+
+.modal_davomat .davomat_modal_body .thead-light tr th{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left:10px;
+}
+.modal_davomat .davomat_modal_body .thead-light tr th:first-child{
+    padding-left: 20px;
+}
+.modal_davomat .davomat_modal_body .table{
+    margin-bottom: 0px;
+}
+
+.modal_davomat .davomat_modal_body .table th {
+    padding-left: 20px;
+}
+
+.table td, .table th{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.modal_davomat .modal-footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+span.btn-info{
+    cursor: pointer;
+}
+
+/*!***  oquv_guruh_davomati  **!*/
+
+.group-students{
+    padding-right: 0px;
+}
+.list-group .list-group-item{
+    border-radius: 0px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    background: #f1faff;
+    height: 50px;
+}
+.list-group .list-group-item:first-child{
+    background: #c7e9f9;
+    padding-top: 0px;
+    border-bottom: 2.5px solid #9781f3;
+    max-height: 51.5px;
+}
+.guruh-nomi{
+    background: #c7e9f9;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+.dars_kunlari{
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #597ea3;
+    line-height: 1;
+    text-align: center;
+}
+.list-group-item .ism{
+    margin-bottom: 0px;
+    line-height: 0.7;
+    font-weight: bold;
+    padding-bottom: 0px;
+    font-size: 16px;
+}
+.list-group-item .tel{
+    font-size: 11px;
+    font-family: Calibri, sans-serif;
+    padding: 0px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-style: normal;
+    color: #597ea3;
+}
+.list-group-item .tel i{
+    font-size: 10px;
+}
+
+
+#k-btn{
+    line-height: 1.1;
+    margin-right: 5px;
+    font-size: 17px;
+    border-radius: 0.25rem;
+    color: #f6f7fb;
+    transition: all .5s;
+}
+
+#k-btn:hover{
+    color: white;
+    border-radius: 0.3rem;
+    border: 1px solid #007bff;
+    background: #007bff;
+}
+
+/** O'qitucvhini guruhlari davomati **/
+.teacher_davoamt_report .table{
+
+}
+.teacher_davoamt_report .table thead tr th{
+    padding: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    line-height: 1.2;
+    text-align: center;
+}
+.teacher_davoamt_report .table thead tr th p,
+.teacher_davoamt_report .table thead tr th span,
+.teacher_davoamt_report .table thead tr th i {
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+.teacher_davoamt_report .table thead tr th i {
+    padding-bottom: 5px;
+    padding-top: 2px;
+    font-style: normal;
+    font-size: 11px;
+    display: inline-block;
+}
+.teacher_davoamt_report .table thead tr th{
+    width: 6%;
+}
+.teacher_davoamt_report .table thead tr th:first-child{
+    width:25%;
+    background: #53acd6;
+    padding: 0px;
+    line-height: 1.2;
+}
+
+.teacher_davoamt_report .table thead tr th:first-child p{
+    font-size: 16px;
+}
+
+.teacher_davoamt_report .table thead tr th:first-child span {
+    font-size: 14px;
+}
+/** table tanasi **/
+.teacher_davoamt_report .table tbody tr th{
+    background: #f1faff;
+    line-height: 1.2;
+    padding-bottom: 0px;
+}
+
+.teacher_davoamt_report .table tbody tr th:first-child p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.teacher_davoamt_report .table tbody tr th:first-child span {
+    font-size: 12px;
+    color: #597ea3;
+}
+
+.teacher_davoamt_report .table tbody tr:hover{
+    background: #f1faff;
+}
+.teacher_davoamt_report .table tbody tr td:hover{
+    background: #b8daff;
+}
+.teacher_davoamt_report .table tbody tr td i{
+    display: block;
+    line-height: 40px;
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+}
+
+.teacher_davoamt_report .table tbody tr td .fa-check{
+    color: #10c63a;
+}
+
+.teacher_davoamt_report .table tbody tr td .fa-times{
+    color: red;
+}
+
+
+.teacher_davoamt_report .term_pagination_group button{
+    border: 1px solid #0f668e;
+}
+
+.teacher_davoamt_report .term_pagination_group .active_term_btn{
+    background: #10707f;
+    border: 1px solid #10707f;
+    color: #fff;
+}
+
+
+/*!***  ./ oquv_guruh_davomati  **!*/
+
+.th_first_once{
+    width: 25%;
+}

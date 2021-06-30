@@ -1,0 +1,364 @@
+.card-title_h2{
+	font-size: 25px;
+	font-weight: 20px;
+	letter-spacing: 3px;
+	font-style: italic;
+}
+p.p_create .btn_create{
+	margin: 0; 
+	padding-left: 3px; 
+	padding-right: 3px; 
+	background: #0068d8;
+	width: 130px;
+	border-radius: 5px;
+	border: 1px solid #0068d8;
+}
+p.p_create{
+	letter-spacing: 1.5px;
+	font-style: bold;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+p.p_create .btn_create:hover{
+	background: #007bff;
+	border: 1px solid #007bff;
+	
+}
+.main-header{
+	background: linear-gradient(#0b8ca0,#40d2e8);
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+table.dataTable thead > tr > th.sorting_asc:first-child, table.dataTable thead > tr > th.sorting_desc:first-child, table.dataTable thead > tr > th.sorting:first-child{
+	padding-right: 25px;
+}
+.title{
+	font-weight: bold;
+	margin-left: 32%;
+	color:white;
+}
+a.nav-link .fa-bars, a.nav-link .fa-sign-out-alt{
+	color: white;
+}
+
+#example1_wrapper .row .col-md-6 .dataTables_length{
+	display: none;
+}
+.content-wrapper .card .card-header{
+	z-index: 1;
+	width: 350px;
+}
+.content-wrapper .card .card-body{
+	margin-top: -65px;
+}
+.content-wrapper .card .card-header .btn{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.fa-user-cog{
+	color: white;
+}
+.navbar-nav .dropdown-menu{
+	margin-top: 3px;
+	margin-left: 20px;
+	border-radius: 0px;
+	padding: 0px;
+}
+.dropdown-divider{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.dropdown-menu-right{
+	margin-right: 11px;
+}
+.dropdown-menu-right .dropdown-item{
+	font-size: 14px;
+	margin-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.dropdown-menu-right .dropdown-item:hover{
+	background-color: #3fd1e7;
+	color: white;
+	font-variant: bold;
+}
+#admin_btn{
+	padding-right: 15px;
+	padding-left: 0px;
+	display: flex;
+}
+#admin_btn img{
+	width: 25px;
+	height: 23px;
+}
+#admin_btn p{
+	color: white;
+	margin-left: 5px;
+	font-weight: bold;
+}
+/*###################  */
+.pushmenu{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.btn_push .fas{
+	color:white;
+	font-size: 20px;
+	margin-top: 2px;
+}
+.main-sidebar .brand-link {
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+.text-muted{
+	font-size: 12px;
+}
+
+/*############################ */
+
+.guruh_nomi{
+	font-size: 13.5px;
+	cursor: pointer;
+}
+
+
+/*!***  oquv_guruh_davomati  **!*/
+
+.group-students{
+	padding-right: 0px;
+}
+.list-group .list-group-item{
+	border-radius: 0px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	background: #f1faff;
+	height:50px;
+}
+.list-group .list-group-item:first-child{
+	background: #c7e9f9;
+	padding-top: 0px;
+	border-bottom: 2.5px solid #9781f3;
+	min-height: 50px;
+}
+.guruh-nomi{
+	background: #c7e9f9;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+.guruh_vaqti{
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	margin-top: -16px;
+	display: block;
+	text-align: right;
+	margin-right: -10px;
+	color: #39638c;
+}
+.guruh-nomi .fa-user-tie{
+	font-size: 13px;
+}
+.guruh_vaqti .fa-clock{
+	font-size: 11px;
+}
+.dars_kunlari{
+	padding-top: 0px;
+	margin-top: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #39638c;
+	line-height: 1;
+	text-align: center;
+}
+.list-group-item .ism{
+	margin-bottom: 0px;
+	line-height: 0.8;
+	font-weight: bold;
+	padding-bottom: 3px;
+	font-size: 14px;
+}
+.list-group-item .tel{
+	font-size: 11px;
+	font-family: Calibri, sans-serif;
+	padding: 0px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	font-style: normal;
+	color: #597ea3;
+}
+.list-group-item .tel i{
+	font-size: 10px;
+}
+.davomat_scroll{
+	/*overflow-x: scroll;*/
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.davomat_scroll .table{
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.davomat_scroll .table .thead-light tr th{
+	border-bottom: 2px solid #9781f3;
+	border-right: 1px solid #aeccda;
+	border-top: 1px solid #aeccda;
+	line-height: 0.9;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	min-width: 62px;
+	max-width: 62px;
+	max-height: 50px;
+}
+.davomat_scroll .table .thead-light tr th p{
+	text-align: center;
+	font-size: 13px;
+	padding: 0px;
+	margin: 0px;
+}
+.davomat_scroll .table .thead-light tr th span{
+	text-align: center;
+	font-size: 9px;
+	display: block;
+	padding-top: 2px
+}
+.span_ajax{
+	color: #e9ecef;
+	font-size: 10px;
+}
+.davomat_scroll .table .thead-light tr th i{
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	font-style: normal;
+}
+.davomat_scroll .table tbody tr td{
+	width: 62px;
+	height: 50px;
+}
+.davomat_scroll .table tbody tr:hover{
+	background: #f1faff;
+}
+.davomat_scroll .table tbody tr td:hover{
+	background: #b8daff;
+}
+.davomat_scroll .fa-check, .fa-times{
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	line-height: 25px;
+}
+.davomat_scroll .fa-times{
+	color:red;
+}
+.davomat_scroll .fa-check{
+	color: #10c63a;
+}
+
+.davomat_guruh_block{
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.davomat_guruh_block h6.guruh_oqituvchi{
+	background: #53acd6;
+	margin-left: 17px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid #0778ad;
+	width: 23.1%;
+	margin-bottom: 5px;
+}
+
+.davomat_kurslar_fixed{
+	margin-left: 17px;
+	margin-right: 15px;
+	margin-top: 10px;
+	border: 1px solid #aeccda;
+	background: #e2f6ff;
+	padding: 5px;
+	z-index: 1;
+}
+.fixed{
+	width:81.7%;
+	position: fixed;
+	top: -10px;
+	margin-left: 0px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-top: 10px;
+	background: #53def3;
+ }
+.davomat_kurslar_fixed .col-sm-12 a.btn{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#k-btn{
+	line-height: 1.1;
+	margin-right: 5px;
+	font-size: 17px;
+	border-radius: 0.25rem;
+	color: #f6f7fb;
+	transition: all .5s;
+}
+
+#k-btn:hover{
+	color: white;
+	border-radius: 0.3rem;
+	border: 1px solid #007bff;
+	background: #007bff;
+}
+.davomat_guruh_active {
+	color: white;
+	border-radius: 0.3rem;
+	border: 1px solid #007bff;
+	background: #007bff;
+}
+
+/*!***  ./ oquv_guruh_davomati  **!*/
+
+.term_pagination_group button{
+	border: 1px solid #0f668e;
+	background: #3fafe3;
+}
+
+.term_pagination_group .active_term_btn{
+	background: #10707f;
+	border: 1px solid #10707f;
+	color: #fff;
+}
+
+
+/*** asosiy oynadagi statistika card */
+.card_asos_statistika{
+	background: white;
+}
+.card_asos_statistika .card{
+	box-shadow: none;
+	border-radius: 0px;
+	padding-bottom: 150px;
+}
+
+
+/* Student to'lovlari */
+
+.student_payment_btn{
+	z-index: 1;
+}
+
+.student_payment_debt{
+	color: red;
+	font-weight: bold;
+}
